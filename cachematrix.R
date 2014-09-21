@@ -20,7 +20,7 @@ makeCacheMatrix <- function( m = matrix() ) {
  
      ## set the inverse of the matrix and then I get the inverse of the matrix
      setInverse <- function(solve) { 
-         ca <<- solve 
+         ca <<-  solve 
      } 
  
      getInverse <- function() { 
